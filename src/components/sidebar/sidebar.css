@@ -1,0 +1,154 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 45px;
+
+    position: absolute;
+    width: 230px;
+    height: 750px;
+    left: 21px;
+    top: 16.63px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.vectorlogFalse{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+
+    /* Lines */
+
+    background: #F1F1F1;
+    border-radius: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    cursor: pointer;
+    transform: matrix(-1, 0, -0.09, -1, 0, 0);
+}
+.vectorlog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+
+    /* Lines */
+
+    background: #F1F1F1;
+    border-radius: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.logo{
+    margin-top: 25px;
+}
+
+.logoo {
+    margin-left: 75px;
+    width: 104.65px;
+    height: 35px;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 210px;
+    height: 416px;
+}
+
+.sidemenu:hover{
+    background-color: rgb(237, 235, 241);
+    transform: scale(1.1);
+}
+.logos{
+    margin-left: 30px;
+}
+.sidemenu { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    width: 210px;
+    height: 61px;
+    border-radius: 5px;
+    border: none;
+}
+.selectedsidemenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    width: 210px;
+    height: 61px;
+    border-radius: 5px;
+    background-color: rgb(201, 196, 211);
+    border: none;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+    .homeText {
+        display: none;
+    }
+    .sidemenu{
+        width:90px; 
+    }
+    .selectedsidemenu{
+        width: 90px;
+    }
+    .sidebar{
+    width: 100px;
+    height: 750px;
+    }
+    .vectorlog{
+        display: none;
+    }
+    .logoo{
+        margin-left: 0px;
+    }
+}
+
+.homeText {
+    width: 46px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 15px;
+    color: #202553;
+
+}

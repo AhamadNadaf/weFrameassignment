@@ -1,0 +1,10 @@
+.recurring_invoices {
+    position: absolute;
+width: 1352.48px;
+height: 155.17px;
+top: 0px;
+
+background: url('../assets/rectangle.png'), #D9D9D9;
+mix-blend-mode: hard-light;
+}
+

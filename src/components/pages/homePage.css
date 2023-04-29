@@ -1,0 +1,631 @@
+.homePage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+    gap: 23px;
+
+    position: absolute;
+    width: 570px;
+    height: 60px;
+    left: 338.64px;
+    top: 35.39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+
+    position: absolute;
+    width: 303.42px;
+    height: 60px;
+    left: 990px;
+    top: 35.39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.Ellipse1 {
+    margin-left: 70px;
+}
+
+.Ellipse1Text {
+
+    width: 290px;
+    height: 26px;
+
+    /* Heading 3 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.paid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin-left: -30px;
+
+    width: 90px;
+    height: 54px;
+
+    background: #48C446;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pending {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: center;
+
+    width: 110px;
+    height: 54px;
+
+    /* Lines */
+
+    background: #BDBDBD;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.overdue {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: center;
+
+    width: 159px;
+    height: 54px;
+
+    background: #EC615B;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.lastText {
+
+    width: 98px;
+    height: 21px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #1B1B1B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.paidSpan,
+.pendingSpan,
+.overdueSpan {
+    width: 21px;
+    height: 13px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* BG */
+
+    color: #F9F9FB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.paid€24000,
+.pending€41000,
+.overdue€65600 {
+    width: 67px;
+    height: 21px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Recurring_Invoices {
+    position: absolute;
+    width: 426px;
+    height: 49px;
+    left: 338.64px;
+    top: 180.88px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 101.2%;
+    /* identical to box height, or 49px */
+
+
+    color: #000000;
+}
+
+.Add_recurring_invoice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 41px;
+    gap: 10px;
+
+    position: absolute;
+    width: 262px;
+    height: 63px;
+    left: 690px;
+    top: 10px;
+    color: #FFFFFF;
+
+    background: #000000;
+    border-radius: 5px;
+}
+
+.Add_recurring_invoiceText {
+    width: 158px;
+    height: 21px;
+
+    /* Paragraph */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    cursor: pointer;
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector7Img {
+    position: absolute;
+    top: 23px;
+    margin-right: -190px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 33px;
+
+    position: absolute;
+    width: 960px;
+    height: 168px;
+    left: 339px;
+    top: 335px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 20px;
+    gap: 42px;
+
+    width: 100px;
+    height: 108px;
+
+    /* BG */
+
+    background: #F9F9FB;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.gridSpanText {
+    width: 163px;
+    /* height: 1px; */
+    position: absolute;
+    top: 0%;
+
+    /* Topper-Text */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #979797;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.gridSpanNumber {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 42px;
+
+    /* Heading 2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+order: 1;
+flex-grow: 0; */
+}
+
+.Per_client {
+    width: 557.26px;
+    height: 42px;
+    margin-left: 339px;
+    margin-top: 545px;
+
+    /* Heading 2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+.searchDiv {}
+
+.Search_client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 52px;
+
+    width: 174px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 339px;
+
+    /* Lines */
+
+    background: #F1F1F1;
+    border-radius: 5px;
+    border: solid 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.searchButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 41px;
+    gap: 10px;
+    margin-top: -41px;
+    margin-left: 560px;
+
+    width: 120px;
+    height: 41px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dataTables {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 960px;
+
+    margin-left: 339px;
+    margin-top: 15px;
+
+    border: 0px solid black;
+    overflow: hidden;
+
+}
+
+table,
+th,
+td {
+    border: 0px solid black;
+}
+
+.titleTable {
+    display: flex;
+    align-items: start;
+}
+
+.titleClient {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    color: #979797;
+    width: 240px;
+    text-transform: uppercase;
+
+}
+
+.titlesend {
+    display: flex;
+    justify-content: start;
+    color: #979797;
+    width: 140px;
+    text-transform: uppercase;
+
+}
+
+.titleend_date {
+    display: flex;
+    justify-content: start;
+    color: #979797;
+    width: 180px;
+    text-transform: uppercase;
+
+}
+
+.titleInterval {
+    display: flex;
+    justify-content: start;
+    color: #979797;
+    width: 150px;
+
+}
+
+.titleAmount {
+    display: flex;
+    justify-content: start;
+    color: #979797;
+    width: 120px;
+
+}
+
+.titleEdit {
+    color: #979797;
+    width: 50px;
+
+}
+
+.titleClientdata {
+    display: flex;
+    margin-left: 20px;
+    width: 250px;
+    text-transform: uppercase;
+
+}
+
+.titlesenddata {
+    width: 130px;
+    text-transform: uppercase;
+
+}
+
+.titleend_datedata {
+    width: 180px;
+    text-transform: uppercase;
+
+}
+
+.titleIntervaldata {
+    width: 150px;
+
+}
+
+.titleAmountdata {
+    width: 90px;
+
+}
+
+.titleEdit {
+    display: flex;
+    justify-content: start;
+    width: 125px;
+
+}
+
+.lineHr {
+    width: 980px;
+    color: #979797;
+}
+
+.editTableButton {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 26px;
+    gap: 10px;
+
+    width: 104px;
+    height: 51px;
+    background-color: white;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.Rectangle23 {
+    position: relative;
+    top: 20px;
+    right: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.editSpan {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 1000px) {
+    .userInfo {
+        top: 150.39px;
+        left: 390px;
+
+    }
+    .Recurring_Invoices {
+        left: 390.64px;
+        top: 280.88px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .homePage {
+        left: 190.64px;
+    }
+
+    .userInfo {
+        top: 150.39px;
+        left: 190.64px;
+    }
+
+    .Recurring_Invoices {
+        left: 190.64px;
+        top: 280.88px;
+    }
+    .Add_recurring_invoice{
+        left: 420px;
+    top: 10px;
+
+    }
+}
